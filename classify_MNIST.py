@@ -10,7 +10,7 @@ from sklearn import svm
 from numpy import concatenate, mean
 import time
 
-# load the MNIST data
+# load the MNIST data by TensorFlow
 mnist=input_data.read_data_sets("MNIST_data/", one_hot=False)
 
 image_train=mnist.train.images
@@ -28,7 +28,7 @@ label_train=concatenate((label_train, label_validation), axis=0)
 # record time
 time_start=time.time() 
 
-# linear SVM classifier
+# linear SVM classifier by Scikit-learn
 C=1.0 # SVM regularization parameter
 clf=svm.SVC(kernel='linear', C=C)
 svc=clf.fit(image_train, label_train) # train
