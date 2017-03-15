@@ -6,11 +6,11 @@ learning methods. However, it is a start.
 https://www.tensorflow.org/get_started/mnist/beginners
 
 Data and softwares:
-the MNIST data (http://yann.lecun.com/exdb/mnist/)
+The MNIST data (http://yann.lecun.com/exdb/mnist/)
 Python 3.5.2
 TensorFlow 1.0.1
 Scikit-learn 0.17.1
-numpy 1.11.1
+Numpy 1.11.1
 
 Usage:
 Run classify_MNIST.py
